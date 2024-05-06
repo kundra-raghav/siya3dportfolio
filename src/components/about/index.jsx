@@ -1,8 +1,5 @@
-
 import React from 'react';
 import ItemLayout from './ItemLayout';
-
-
 
 const AboutDetails = () => {
   return (
@@ -21,14 +18,14 @@ const AboutDetails = () => {
         </ItemLayout>
         <ItemLayout className="col-span-full xs:col-span-6 lg:col-span-4 text-accent">
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-          Software Engineer
-            <sub className="font-semibold text-base">Hey there! I'm a passionate and innovative software engineer.‎ ‎ I CTRL+C, I CTRL+V, and sometimes I CTRL+Z, but never CTRL+Y.</sub>
+            Software Engineer
+            <sub className="font-semibold text-base">Hey there! I&apos;m a passionate and innovative software engineer. I CTRL+C, I CTRL+V, and sometimes I CTRL+Z, but never CTRL+Y.</sub>
           </p>
         </ItemLayout>
         <ItemLayout className="col-span-full xs:col-span-6 lg:col-span-4 text-accent">
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
             5+
-            <sub className="font-semibold text-base">Interships in various field like Full Stack Development, Data Analytics, App Development Intern , Python Developer, Sales&Marketing</sub>
+            <sub className="font-semibold text-base">Interships in various field like Full Stack Development, Data Analytics, App Development Intern , Python Developer, Sales&amp;Marketing</sub>
           </p>
         </ItemLayout>
         <ItemLayout className="col-span-full sm:col-span-6 md:col-span-4 !p-0">
@@ -55,14 +52,10 @@ const AboutDetails = () => {
             loading="lazy"
           />
         </ItemLayout>
-
         <ItemLayout className="col-span-full md:col-span-6 !p-0">
-        <img className="w-full h-auto" src="https://github-readme-streak-stats.herokuapp.com?user=siyadigra22&theme=dark&hide_border=true&type=png&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B" alt="CodeBucks"
+          <img className="w-full h-auto" src="https://github-readme-streak-stats.herokuapp.com?user=siyadigra22&theme=dark&hide_border=true&type=png&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B" alt="CodeBucks"
             loading="lazy" />
         </ItemLayout>
-
-        
-
         <ItemLayout className="col-span-full md:col-span-6 !p-0">
           <img
             className="w-full h-auto"
@@ -71,9 +64,6 @@ const AboutDetails = () => {
             loading="lazy"
           />
         </ItemLayout>
-
-
-        
       </div>
     </section>
   );
