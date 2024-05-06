@@ -2,7 +2,7 @@
 
 
 
-💚 Checkout my personal website [DevDreaming](https://devdreaming.com) <br />
+💚 Checkout my personal website [Siya Digra](https://siya3dportfolio.vercel.app/) <br />
 
 ---
 # ⭐DO NOT FORGET TO STAR THIS REPO⭐
