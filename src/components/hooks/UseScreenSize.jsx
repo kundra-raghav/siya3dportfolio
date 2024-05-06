@@ -1,28 +1,27 @@
-"use client"
+"use client";
 
-import { FirstPersonControls } from "@react-three/drei";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const useScreenSize = () => {
-    const [screenSize, setScreenSize] = useState()
+  const [screenSize, setScreenSize] = useState();
 
-    useEffect(() => {
-        function getScreenSize(){
-            return window.innerWidth;
-        }
+  useEffect(() => {
+    function getScreenSize() {
+      return window.innerWidth;
+    }
 
-        function handleResize(){
-            setScreenSize(getScreenSize())
-        }
+    function handleResize() {
+      setScreenSize(getScreenSize());
+    }
 
-        handleResize();
+    handleResize();
 
-        window.addEventListener("resize", handleResize)
+    window.addEventListener("resize", handleResize);
 
-        return() => window.removeEventListener("resize", handleResize)
-    }, [])
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
-    return screenSize
-}
+  return screenSize;
+};
 
 export default useScreenSize;
